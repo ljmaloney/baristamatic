@@ -20,7 +20,8 @@ public enum DrinkType {
       "Caffe Latte",
       new RecipeDto(IngredientType.ESPRESSO, 2),
       new RecipeDto(IngredientType.STEAMED_MILK, 1)),
-  CAFFE_AMERICANO("Caffe Americano", new RecipeDto(IngredientType.ESPRESSO, 3)),
+  CAFFE_AMERICANO("Caffe Americano",
+          new RecipeDto(IngredientType.ESPRESSO, 3)),
   CAFFE_MOCHA(
       "Caffe Mocha",
       new RecipeDto(IngredientType.ESPRESSO, 1),
